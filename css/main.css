@@ -1,0 +1,411 @@
+@font-face {
+	font-family: "icomoon";
+	src: url("../fonts/icomoon.eot?ejhtxt");
+	src: url("../fonts/icomoon.eot?ejhtxt#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?ejhtxt") format("truetype"), url("../fonts/icomoon.woff?ejhtxt") format("woff"), url("../fonts/icomoon.svg?ejhtxt#icomoon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "icomoon" !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1; /* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-send:before {
+	content: "";
+}
+
+.icon-google:before {
+	content: "";
+}
+
+.icon-instagram:before {
+	content: "";
+}
+
+.icon-tumblr:before {
+	content: "";
+}
+
+.icon-brand:before {
+	content: "";
+}
+
+.icon-social:before {
+	content: "";
+}
+
+.icon-pinterest:before {
+	content: "";
+}
+
+.icon-brand1:before {
+	content: "";
+}
+
+.icon-social1:before {
+	content: "";
+}
+
+.icon-twitter:before {
+	content: "";
+}
+
+.icon-facebook:before {
+	content: "";
+}
+
+.navbar-toggler {
+	padding: 8px 12px;
+	font-size: 1.25rem;
+	line-height: 1;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+	text-decoration: none;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+	cursor: pointer;
+}
+
+ul,
+#footer nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.ellipsis {
+	white-space: nowrap; /* 1 */
+	text-overflow: ellipsis; /* 2 */
+	overflow: hidden;
+}
+
+.navbar-nav a {
+	color: inherit;
+	border-bottom: 1px solid transparent;
+}
+
+.navbar-nav a:hover {
+	border-bottom: 1px solid #000;
+}
+
+.navbar-toggler {
+	position: relative;
+}
+
+.navbar-toggler:before,
+.navbar-toggler:after,
+.navbar-toggler span {
+	content: "";
+	position: absolute;
+	width: 26px;
+	height: 2px;
+	background: #000;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+	-webkit-transform-origin: center center;
+	-ms-transform-origin: center center;
+	transform-origin: center center;
+}
+
+.navbar-toggler span {
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 0;
+}
+
+.navbar-toggler:before {
+	top: 0;
+	left: 0;
+}
+
+.navbar-toggler:after {
+	bottom: 0;
+	left: 0;
+}
+
+a {
+	-webkit-transition: color .3s linear, background .3s linear, border .3s linear;
+	transition: color .3s linear, background .3s linear, border .3s linear;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.header-holder,
+.photo-holder,
+.footer-holder {
+	max-width: 1062px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.link-more {
+	font-family: "Ubuntu Light";
+	font-size: 14px;
+	text-transform: uppercase;
+	display: inline-block;
+	color: #b4ad9e;
+}
+
+.link-more:hover {
+	color: #000;
+}
+
+.head-text-link {
+	color: #626262;
+	border-bottom: 1px solid transparent;
+}
+
+.head-text-link:hover {
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
+.btn-center {
+	text-align: center;
+}
+
+.load-btn {
+	padding: 15px 30px;
+	border: 1px solid #000;
+	color: #626262;
+	font-size: 20px;
+	max-width: 165px;
+	display: inline-block;
+}
+
+.load-btn:hover {
+	background: #626262;
+	color: #fff;
+}
+
+.share {
+	color: #b4ad9e;
+}
+
+.share [class*="icon-"] {
+	color: #b4ad9e;
+}
+
+.share [class*="icon-"]:hover {
+	color: #505255;
+}
+
+.featured {
+	background: #f5f5f5;
+}
+
+.featured p {
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+
+.comments-area {
+	font-size: 14px;
+}
+
+.comments-area .comment-counter,
+.comments-area .reply {
+	color: #b4ad9e;
+	font-family: "Ubuntu Light";
+	font-weight: lighter;
+}
+
+.comments-area .comment {
+	color: #626262;
+}
+
+.comments-area .reply:hover {
+	color: #626262;
+}
+
+.comment-form textarea {
+	resize: none;
+	width: 100%;
+	border-radius: 5px;
+	border-color: #c8c8c8;
+	color: #c8c8c8;
+}
+
+.comment-form textarea::-webkit-input-placeholder {
+	color: #c8c8c8;
+}
+
+.comment-form textarea::-moz-placeholder {
+	opacity: 1;
+	color: #c8c8c8;
+}
+
+.comment-form textarea:-moz-placeholder {
+	color: #c8c8c8;
+}
+
+.comment-form textarea:-ms-input-placeholder {
+	color: #c8c8c8;
+}
+
+.comment-form textarea.placeholder {
+	color: #c8c8c8;
+}
+
+.comment-form textarea:focus {
+	outline: none;
+}
+
+.connect {
+	color: #b4ad9e;
+}
+
+.connect [class*="icon-"] {
+	color: #c8c8c8;
+}
+
+.connect [class*="icon-"]:hover {
+	color: #626262;
+}
+
+.single-post {
+	font-size: 14px;
+}
+
+.single-post .head-text {
+	font-weight: 400;
+}
+
+.single-post p {
+	color: #626262;
+}
+
+.post {
+	color: #626262;
+	font-size: 14px;
+}
+
+.post img {
+	margin: 0 auto;
+}
+
+.mailing {
+	background: #f0f0f0;
+}
+
+.mailing .send-form {
+	border-bottom: 1px solid #000;
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+.mailing input[type=email] {
+	border: none;
+	background: inherit;
+	width: 300px;
+}
+
+.mailing input[type=email]:focus {
+	outline: none;
+}
+
+.mailing [class*="icon-"] {
+	color: #565655;
+}
+
+.mailing [class*="icon-"]:hover {
+	color: #fff;
+}
+
+#sidebar .post {
+	font-size: 12px;
+}
+
+#sidebar .post [class*="icon-"] {
+	font-size: 18px;
+}
+
+.top-holder {
+	font-size: 14px;
+}
+
+.top-holder p {
+	color: #b4ad9e;
+}
+
+.top-posts li {
+	position: relative;
+}
+
+.top-posts li p {
+	color: #626262;
+}
+
+.top-posts .comment-counter {
+	font-size: 12px;
+	color: #b4ad9e;
+}
+
+.top-posts .comment-counter:hover {
+	color: #4a4844;
+}
+
+#footer {
+	background: #f0f0f0;
+}
+
+#footer nav a {
+	color: #000;
+}
+
+#footer nav a:hover {
+	color: #848484;
+}
+
+#footer nav [class*="icon-"] {
+	color: #626262;
+}
+
+#footer nav [class*="icon-"]:hover {
+	color: #000;
+}
+
+body {
+	min-width: 320px;
+}
+
+@media screen and (min-width: 768px) {
+	.top-posts li:before {
+		content: "";
+		width: 5px;
+		height: 5px;
+		position: absolute;
+		border-radius: 50%;
+		background: #b4ad9e;
+		left: -15px;
+		top: 11px;
+	}
+}
+

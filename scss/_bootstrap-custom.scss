@@ -1,0 +1,154 @@
+// custom variables and override bootstrap variables
+
+$body-bg: #fff;
+
+$white:  #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #dadee1;
+$gray-300: #f6f6f6;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #626262;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:  #000 !default;
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #f25549;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+$brown:   #4f7146;
+$dark-blue:   #26455f;
+$dirt-blue:   #4f485b;
+$light-blue:   #d2e4f4;
+$footer-color: #728fa8;
+$link-info-color: #b4ad9e;
+
+
+
+
+$colors: ();
+$colors: map-merge((
+	"blue":       $blue,
+	"indigo":     $indigo,
+	"purple":     $purple,
+	"pink":       $pink,
+	"red":        $red,
+	"orange":     $orange,
+	"yellow":     $yellow,
+	"green":      $green,
+	"teal":       $teal,
+	"cyan":       $cyan,
+	"white":      $white,
+	"gray":       $gray-600,
+	"gray-dark":  $gray-800,
+	"brown":      $brown,
+	"dark-blue":  $dark-blue,
+	"dirt-blue":  $dirt-blue,
+	"light-blue":  $light-blue,
+	"footer-color":  $footer-color,
+	"link-info-color":  $link-info-color
+), $colors);
+
+$primary:       $blue !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$red:        $red ;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+$dark-blue:          $dark-blue;
+$dirt-blue:          $dirt-blue;
+$light-blue:          $light-blue;
+$footer-color:          $footer-color;
+$link-info-color:          $link-info-color;
+
+
+
+$theme-colors: ();
+$theme-colors: map-merge((
+	"primary":    $primary,
+	"secondary":  $secondary,
+	"success":    $success,
+	"info":       $info,
+	"warning":    $warning,
+	"danger":     $danger,
+	"light":      $light,
+	"dark":       $dark,
+	"dark-blue":  $dark-blue,
+	"dirt-blue":  $dirt-blue,
+	"light-blue":  $light-blue,
+	"footer-color":  $footer-color,
+	"link-info-color":  $link-info-color,
+	"red":  $red
+), $theme-colors);
+
+$spacer: 1rem ;
+$spacers: () ;
+$spacers: map-merge((
+	0: 0,
+	1: ($spacer * .25),
+	2: ($spacer * .5),
+	3: $spacer,
+	4: ($spacer * 1.25),
+	5: ($spacer * 1.5),
+	6: ($spacer * 2),
+	7: ($spacer * 2.5),
+	8: ($spacer * 3),
+	9: ($spacer * 3.5),
+	10: ($spacer * 4),
+	11: ($spacer * 4.5),
+	12: ($spacer * 5),
+	13: ($spacer * 5.5),
+	14: ($spacer * 6),
+), $spacers);
+
+$h1-font-size:                $font-size-base * 1.875 ;
+$h2-font-size:                $font-size-base * 1.75 ;
+$h3-font-size:                $font-size-base * 1.5 ;
+$h4-font-size:                $font-size-base * 1.25 ;
+$h5-font-size:                $font-size-base  ;
+$h6-font-size:                $font-size-base * 0.75;
+
+$base-min-width: 320px;
+
+// This is the default html and body font-size for the base rem value.
+$rem-base: 16px;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1060px
+);
+
+$grid-gutter-width:           30px;
+
+// $grid-gutter-width:           20px; space between col
+
+.navbar-toggler {
+  padding: 8px 12px;
+  font-size: $navbar-toggler-font-size;
+  line-height: 1;
+  background-color: transparent; // remove default button style
+  border: $border-width solid transparent; // remove default button style
+  @include border-radius($navbar-toggler-border-radius);
+
+  @include hover-focus {
+    text-decoration: none;
+  }
+
+  // Opinionated: add "hand" cursor to non-disabled .navbar-toggler elements
+  &:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+}
+

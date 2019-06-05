@@ -1,0 +1,18 @@
+#footer{
+	background: #f0f0f0;
+	nav{
+		@extend %listreset;
+		a{
+			color: $black;
+			&:hover{
+				color: #848484;
+			}
+		}
+		[class*="icon-"]{
+			color: #626262;
+			&:hover{
+				color: $black;
+			}
+		}
+	}
+}

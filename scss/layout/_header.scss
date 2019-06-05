@@ -1,0 +1,36 @@
+.navbar-nav{
+	a{
+		color: inherit;
+		border-bottom: 1px solid transparent;
+		&:hover{
+			border-bottom: 1px solid $black;
+		}
+	}
+}
+.navbar-toggler{
+	position: relative;
+	&:before,
+	&:after,
+	span{
+		content: '';
+		position: absolute;
+		width: 26px;
+		height: 2px;
+		background: $black;
+		transition: all 0.5s;
+		transform-origin: center center;
+	}
+	span{
+		top: 50%;
+		transform:translateY(-50%);
+		left: 0;
+	}
+	&:before{
+		top: 0;
+		left: 0;
+	}
+	&:after{
+		bottom: 0;
+		left: 0;
+	}
+}

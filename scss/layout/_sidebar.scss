@@ -1,0 +1,43 @@
+#sidebar{
+	.post{
+		font-size: 12px;
+		[class*="icon-"]{
+			font-size: 18px;
+		}
+	}
+}
+
+.top-holder{
+	font-size: 14px;
+	p{
+		color: #b4ad9e;
+	}
+}
+
+.top-posts{
+	li{
+		position: relative;
+		&:before{
+			@include media("screen", ">=tablet") {
+				content: '';
+				width: 5px;
+				height: 5px;
+				position: absolute;
+				border-radius: 50%;
+				background: #b4ad9e;
+				left: -15px;
+				top: 11px;
+			}
+		}
+		p{
+			color: #626262;
+		}
+	}
+	.comment-counter{
+		font-size: 12px;
+		color: #b4ad9e;
+		&:hover{
+			color: #4a4844;
+		}
+	}
+}
